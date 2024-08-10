@@ -168,37 +168,52 @@ NumPy is a fundamental library in Python that plays a crucial role in the develo
 The system can be accessed by running the python file that will open the webcam of the device. In order to perform student face recognition, the user must place his/her face in front of the webcam and allow the system to recognize and classify the student face for taking attendance in real-time. 
 
 __Figure 4: Interface when making a prediction for student attendance system__
+<img width="984" alt="Screenshot 2024-08-10 at 20 24 15" src="https://github.com/user-attachments/assets/0367f044-f6df-4c32-b0f2-164c05b572ed">
 
-4.2 Usability of Web Based Student Class Attendance System Using Artificial Intelligence    
-People who have used the system so far have found the system to be responsive and giving an accurate prediction most of the times. The system is easy to use and does not require the user to fill in any extra unnecessary information which increases the ease of use. The user is only required to place the face in front of the camera at a relative distance to obtain a prediction. 
-4.2.1 System Validation 
+<img width="1003" alt="Screenshot 2024-08-10 at 20 25 41" src="https://github.com/user-attachments/assets/1e56a9fd-dbee-4276-8c26-92a85a296b96">
+
+<img width="1022" alt="Screenshot 2024-08-10 at 20 25 55" src="https://github.com/user-attachments/assets/9ebcc7cd-6db3-44ed-881e-21eece571be8">
+
+<img width="990" alt="Screenshot 2024-08-10 at 20 26 11" src="https://github.com/user-attachments/assets/5d68894a-e19e-46e3-87b7-3fc2859261ae">
+
+## 4.2 Usability of Web Based Student Class Attendance System Using Artificial Intelligence   
+
+People who have used the system so far have found the system to be responsive and giving an accurate prediction most of the times. The system is easy to use and does not require the user to fill in any extra unnecessary information which increases the ease of use. The user is only required to place the face in front of the camera at a relative distance to obtain a prediction.
+
+## 4.2.1 System Validation 
+
 The system validation was done with the aim of seeing how applicable it would be in the market for doing Student Class Attendance System. The project was subjected to both unit testing and system testing. In the unit testing, each aspect of the system was tested individually to see how it worked and for the system testing, the entire system was tested as a whole (Soni, 2023). The image classification file should load as required without any very long pauses. When used, the system should be able to detect face when placed in front of the camera and then make predictions from the system that should be as accurate as possible. The system should not freeze in the middle of predictions. It was found that the system met all the above requirements. 
-4.2.2 User Acceptance 
+
+## 4.2.2 User Acceptance 
+
 The system was tried by both registered and non-registered students. It was found to be an effective tool that reduces the complexity for both student management and student attendance records. 
-4.2.3 Model Evaluation 
+
+### 4.2.3 Model Evaluation 
+
 The main metrics that were used to evaluate the model were Accuracy, Confusion Matrix, Precision, based on Euclidean distance. Model evaluation allows one to measure the effectiveness and accuracy of the trained model. It provides insights into how well the model is generalizing to unseen data and how it is performing on the task it was designed for. When experimenting with multiple model architectures or hyperparameters, evaluation helps you choose the best-performing model for deployment. You can compare different models based on their evaluation metrics and select the one with the highest accuracy or the best trade-off between precision and recall, depending on the specific application. Overfitting occurs when a model performs well on the training data but poorly on unseen data. Evaluation helps you detect overfitting by examining the difference in performance between the training set and the test set. If there is a significant drop in performance on the test set compared to the training set, it indicates overfitting. Evaluation can help you understand the model's strengths and weaknesses. For example, analyzing the confusion matrix can reveal which classes the model is struggling to recognize correctly, allowing you to focus on improving performance in those areas. 
-4.3 Discussion 
+
+## 4.3 Discussion 
+
 During the course of this project, findings have shown that there is a keen interest within the community to take up a real time student class attendance system that will allow for accessibility, educational institutes to adopt the cutting-edge technology of student class attendance system using artificial intelligence (British Journal of Computer, 2022). As the system is easy to navigate, it takes away of the walls that may prevent users from accessing a tool like this for fear of being difficult to navigate or use. This provides an opportunity for the project to be implemented in various public or private organizations and institutions that are interested in making their spaces more accessible. 
  
  
  
  
-CHAPTER FIVE CONCLUSION AND RECOMMENDATIONS 
-5.1 Conclusion 
+# CONCLUSION AND RECOMMENDATIONS 
+## 5.1 Conclusion 
+
 As stated in the previous chapters, the project analysis was done to come up with a web-based student class attendance system as stated in the findings and results above. In order to make use of the system, a user accesses the system by running the appropriate file, when the file launches and the web cam is activated, the user must place his/her face at a relative distance from the webcam, the system will then provide real-time feedback on each face shape and display the records details instantly. With the ability of student class attendance system to perform realtime face recognition to facilitate classroom control and attendance. This project can be a great tool, which can elevate the burden of recording attendance manually, hence the aim of this project to facilitate and enhance student engagement (Abdalkarim, 2022). One of the most challenging and time-consuming duties is managing the attendance of students.  Every study by researchers aims to simplify such a challenging process using various methods and technologies, student class attendance system fully meets the objectives of the system which it has been developed. The system has reached a steady state where all bugs have been eliminated. The system is operated at a high level of efficiency and all the user associated with the system understands its advantage. The system solves the problem, that it was intended to solve as requirement specification. 
-5.2 Recommendations 
+
+## 5.2 Recommendations 
 As a result of the finding made during the analysis and design stages of this research work. In order to improve the effectiveness of the site to its greater height and full potential, its recommended to train the model using deep learning techniques like Vison Transformers or Yolo Real-Time face recognition and tracking to assess the performance and to see how a student class attendance system model trained on vision transformers or yolo would perform in comparison to python face recognition library. 
  
  
- 
- 
- 
- 
-REFERENCES 
- 
+__REFERENCES__ 
  
 Soni, N. (2023). Real-Time recognition system for sign language gestures . Kampala: ISBAT University. 
 Abdalkarim, B. A. (2022). Smart Attendance Systems. Konya: Salahaddin University-Erbil. 
 Kano, B. U. (2021). Attendance Management System. kano: Bayero University Kano. 
 British Journal of Computer, N. a. (2022). Students' Attendance Management in higher institution using azure cognitive service and opencv face detection & recognition Attendance System. london: British Journal. 
-![image](https://github.com/user-attachments/assets/ffb3c2d4-9e88-452e-931c-7e83da65e257)
+
+__Note__: Project Report Submitted in Partial Fulfillment of the Requirements for the Degree of Bachelor of Science in Artificial Intelligence and Machine Learning of the [International Business, Science and Technology University.](https://isbatuniversity.ac.ug/) November, 2023, Kampala, Uganda
+
