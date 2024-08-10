@@ -98,10 +98,14 @@ __Figure 1: Background image of Student Attendance System__
 ![background](https://github.com/user-attachments/assets/eecca80a-aa83-4489-850f-ab81dd05a16a)
 
 __Figure 2: Modes 1 & 2 of the Student Class Attendance System respectively active for displaying and recording student attendance information details.__
+
+![1](https://github.com/user-attachments/assets/d2b34c95-e0ea-4ec9-aa66-4dfee544892e) ![2](https://github.com/user-attachments/assets/5a6b902d-de70-476e-b28a-e2b7e2711a9e)
+
   
- 
-Figure 3: Modes 3 & 4 of the Student Class Attendance System respectively mark and already marked for taken records feedback 
-3.2 Requirement Analysis 
+__Figure 3: Modes 3 & 4 of the Student Class Attendance System respectively mark and already marked for taken records feedback__
+
+## 3.2 Requirement Analysis 
+
 The requirements gathered from users was categorized into functional and non-functional requirements. 
 Table 3: Table of Functional Requirements 
 Functional Requirement 	Functional Requirement Description 
