@@ -94,9 +94,10 @@ Nidhi Soni, this system is used for creating an effective and efficient translat
 
 The dataset consists of images of students as passport photo of size 216x216, as there is no publicly available dataset for Student Class Attendance System and we can not use any random passport photo, a dataset had to be created from scratch. The dataset for the project consisted of two sample images taken for each student of Student Class Attendance System from various lighting, angles and backgrounds to ensure accuracy during the training process. Below are some image mode among the collected dataset. 
   
-Figure 1: Background image of Student Attendance System 
-  
-Figure 2: Modes 1 & 2 of the Student Class Attendance System respectively active for displaying and recording student attendance information details. 
+__Figure 1: Background image of Student Attendance System__
+![background](https://github.com/user-attachments/assets/eecca80a-aa83-4489-850f-ab81dd05a16a)
+
+__Figure 2: Modes 1 & 2 of the Student Class Attendance System respectively active for displaying and recording student attendance information details.__
   
  
 Figure 3: Modes 3 & 4 of the Student Class Attendance System respectively mark and already marked for taken records feedback 
