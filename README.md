@@ -99,30 +99,20 @@ __Figure 1: Background image of Student Attendance System__
 
 __Figure 2: Modes 1 & 2 of the Student Class Attendance System respectively active for displaying and recording student attendance information details.__
 
-![1](https://github.com/user-attachments/assets/d2b34c95-e0ea-4ec9-aa66-4dfee544892e) ![2](https://github.com/user-attachments/assets/5a6b902d-de70-476e-b28a-e2b7e2711a9e)
+![1](https://github.com/user-attachments/assets/d2b34c95-e0ea-4ec9-aa66-4dfee544892e)   ![2](https://github.com/user-attachments/assets/5a6b902d-de70-476e-b28a-e2b7e2711a9e)
 
   
 __Figure 3: Modes 3 & 4 of the Student Class Attendance System respectively mark and already marked for taken records feedback__
-![3](https://github.com/user-attachments/assets/b60c9736-1b67-48e6-86ea-d772f4ab4f5e) ![4](https://github.com/user-attachments/assets/09ee2adc-922f-4181-a57c-859a5cb40a1a)
+![3](https://github.com/user-attachments/assets/b60c9736-1b67-48e6-86ea-d772f4ab4f5e)    ![4](https://github.com/user-attachments/assets/09ee2adc-922f-4181-a57c-859a5cb40a1a)
 
 ## 3.2 Requirement Analysis 
 
 The requirements gathered from users was categorized into functional and non-functional requirements. 
-Table 3: Table of Functional Requirements 
-Functional Requirement 	Functional Requirement Description 
-Face Detection 	The system must be able to detect and recognize the specific faces reliably when a user places a face in front of the camera. It should use the web camera to capture the face positions accurately. 
-Face Recognition 	The system should be able to classify each detected and recognize each faces, when the user placed in front of the camera correctly into one of the predefined categories by using the face recognition trained model to match the captured faces with the corresponding face as per the label. 
-Real-time Processing 	The system should process face recognition in real-time, providing 
-	immediate feedback to the user, and allow for little to no time delays. 
-Table 4: Table of Non-Functional Requirements 
-Non-Functional 
-Requirement 	Non-Functional Requirement Description 
-User Flexibility 	The system must be able to detect and recognize the specific faces reliably when a user places his/her head in front of the camera, even in different backgrounds, lightings and at different distances from the camera. It should also allow for different orientations and try to be as accurate as possible even from different angles. 
-Robustness 	The system should be robust enough to handle variations in lighting conditions, background noise, and possible occlusions, ensuring reliable recognition under different environmental conditions. 
-Scalability 	The system should be designed to handle more face in the future if required. It should be expandable to recognize a larger class of faces. 
-Error Handling 	The system should be able to detect and handle errors, such as misinterpretations or false positives, minimizing the risk of miscommunication. 
-Accessibility 	The system should be designed to be accessible to a diverse range of users, including individuals with different height proficiency and physical abilities. 
-Portability 	The system should be designed to run on different platforms and devices, enabling users to access it on various devices such as smartphones, tablets, or computers in the future. 
+__Table 3: Table of Functional Requirements__
+<img width="951" alt="Screenshot 2024-08-10 at 20 12 51" src="https://github.com/user-attachments/assets/6eb9df8d-8654-44be-bc46-cdbffc7f4a5e">
+
+__Table 4: Table of Non-Functional Requirements__
+
  
 3.3 Data Preprocessing  
 Data preprocessing was a crucial step in building a machine learning model for Student face recognition. Some of the data preprocessing steps used in this project are as follows: 
