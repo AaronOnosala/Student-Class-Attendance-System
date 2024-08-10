@@ -103,6 +103,7 @@ __Figure 2: Modes 1 & 2 of the Student Class Attendance System respectively acti
 
   
 __Figure 3: Modes 3 & 4 of the Student Class Attendance System respectively mark and already marked for taken records feedback__
+![3](https://github.com/user-attachments/assets/b60c9736-1b67-48e6-86ea-d772f4ab4f5e) ![4](https://github.com/user-attachments/assets/09ee2adc-922f-4181-a57c-859a5cb40a1a)
 
 ## 3.2 Requirement Analysis 
 
