@@ -112,79 +112,63 @@ __Table 3: Table of Functional Requirements__
 <img width="951" alt="Screenshot 2024-08-10 at 20 12 51" src="https://github.com/user-attachments/assets/6eb9df8d-8654-44be-bc46-cdbffc7f4a5e">
 
 __Table 4: Table of Non-Functional Requirements__
-
+<img width="941" alt="Screenshot 2024-08-10 at 20 15 15" src="https://github.com/user-attachments/assets/30abf86a-c8d6-45d8-96e1-17c40918aabe">
  
-3.3 Data Preprocessing  
+## 3.3 Data Preprocessing  
 Data preprocessing was a crucial step in building a machine learning model for Student face recognition. Some of the data preprocessing steps used in this project are as follows: 
-3.3.1 Data Collection and Labeling 
+### 3.3.1 Data Collection and Labeling 
+
 A diverse dataset consisting of 2 sample images of each student were collected from different orientations and lighting. These images were then preprocessed by imposing them on a white background and ensuring that all of the images were of equal length, width and that no part of the face was cut out of frame during data collection. Each face was then Encoded accordingly. 
-3.3.2 Data Cleaning 
+
+### 3.3.2 Data Cleaning 
+
 This was done to remove noise in the images from the dataset, as well as parts of images that were unnecessary. 3.3.3 Feature Extraction 
 The relevant features from the input data were extracted since it is image-based student class attendance system. Afterwards, techniques like face shape recognition were used to extract meaningful features using the cvzone library, especially the cvzone.cornerRect. 
-3.4 Development of the System 
-3.4.1 Development Life Cycle of the Proposed System 
+## 3.4 Development of the System 
+### 3.4.1 Development Life Cycle of the Proposed System 
+
 The Real-time student class attendance system went through the following steps as the development of the system. 
-	I. 	 Requirements Analysis 
+	I. __Requirements Analysis__
 The user and target groups were identified, as well as the scope of the project was defined. The objectives of the project were laid out. All the requirements that would be necessary during the project was identified. 
-	II. 	Data Collection 
+	II.__Data Collection__
 A dataset consisting of two sample images of size 216x216 were collected for face recognition with each face having student details. III. 	Data Preparation 
-The raw data of images was preprocessed and cleaned and ensured that they all are relatively the same size so that they could then be passed into the face recognition for training. IV. 	Algorithm Selection 
+The raw data of images was preprocessed and cleaned and ensured that they all are relatively the same size so that they could then be passed into the face recognition for training. 
+        IV. __Algorithm Selection__
 Research was done into the different algorithms that can be used for the Student Class Attendance system such as CNN and Vision Transformers among other relevant Image Detection techniques, and finally, the conclusion to use the face recognition algorithm was reached. 
-	V. 	Model Training 
+	V. __Model Training__
 Training the model was performed on the data collected to come up with a well-trained model. 
 In this case, face_recognition.face_encodings were used to train the model. 
-	VI. 	Model Testing 
-The model was tested by using the trained model as the classifier and using different libraries to make the prediction in real time with a user placing their faces in front of the camera to yield a prediction of the faces that were being detected. VII. User Interface Development 
-The user interface is a simple window that opens with the use of opencv. When this window is launched, the user is required to place their face in front of the window to allow the model to 
-capture and detect the face shape. 
-3.4.2 Tools and Technologies used for Software Development 
+	VI. __Model Testing__ 
+The model was tested by using the trained model as the classifier and using different libraries to make the prediction in real time with a user placing their faces in front of the camera to yield a prediction of the faces that were being detected. 
+      VII. __User Interface Development__ 
+The user interface is a simple window that opens with the use of opencv. When this window is launched, the user is required to place their face in front of the window to allow the model to capture and detect the face shape. 
+
+### 3.4.2 Tools and Technologies used for Software Development 
+
 For the back end, Python was the main language that was used for developing the system. 
-Additionally, some Python IDEs were also used during the duration of this project. i. Python 
+Additionally, some Python IDEs were also used during the duration of this project. 
+ i. __Python__
 Python was the general-purpose programming language that was used throughout the project; from the process of collecting the dataset, to training and then testing the model. 
-ii. PyCharm 
+ ii. __PyCharm__ 
 Pycharm is an opensource Interactive, Development Environment (IDE) that was used to create code for the project. 
-Some of the crucial libraries that were used during the development of the project include; 1. Cv2 (OpenCV) 
+Some of the crucial libraries that were used during the development of the project include; 
+1. __Cv2 (OpenCV)__
 In this project, this library was used for computer vision for image and video processing. It was used for Face Data Collection where it was used to capture real-time video frames from a camera to collect data for the student class attendance faces and save the captured frames as images for further processing and building the dataset. The library is also used for data preprocessing for tasks such as resizing, normalization, and filtering, to prepare the images for training the machine learning model. Additionally, it is also used for face detection for detecting and tracking the face or specific regions of interest in the video frames. It was also used to implement real-time face recognition using the trained machine learning model in conjunction with cv2, also for capturing frames from the camera, preprocess them, and feed them into the model to obtain real-time predictions. It is also used to create a user interface to display the video feed from the camera and overlay recognition results on the video stream in real-time (Soni, 2023). Finally, cv2 is used to visualize the results of the face recognition system during testing and evaluation and also overlay predicted labels or bounding boxes on the input video frames for analysis. 
-2. Cvzone 
+
+2. __Cvzone__
 In this project, cvzone, especially the cvzone.cornerRect module was utilized to perform face tracking and detection tasks. The cornerRect class provided by cvzone helped in accurately detecting and tracking faces in real-time from video frames. This library also supports Realtime Face Detection where one can Implement real-time face tracking and detection using cvzone.cornerRect to capture and process video frames from the camera feed. This real-time detection is essential for recognizing student faces on the fly (Soni, 2023). Another significant use of this library is for Face Segmentation where one can utilize the FaceDetector class to segment and extract the face regions from the video frames which is a crucial step in isolating the face from the rest of the image for more accurate recognition. Furthermore, the cvzone.ClassificationModule in the cvzone library provides a Classifier class that can be used for training and utilizing a classification model for recognizing different classes or categories (British Journal of Computer, 2022). The Classifier can be used to train a machine learning model to recognize the different student face shapes. It can be used for Data Preparation to prepare the dataset of Student face shapes, including images or features representing each faces and their corresponding labels (class or category names). It can also be used to Train the Classifier by creating an instance of the Classifier class and specify the parameters for the classification model (e.g., the type of model, hyperparameters). 
-3. Numpy 
+
+3. __Numpy__
 NumPy is a fundamental library in Python that plays a crucial role in the development of Student Class Attendance systems. In Student Class Attendance systems, the representation of images as arrays was essential for efficient processing, and NumPy excels in handling multidimensional arrays with its powerful array manipulation capabilities. Face images can be represented as NumPy arrays, where each pixel's intensity values are stored in a structured manner. This allowed us to perform various operations, such as resizing, cropping, and normalization, easily and efficiently. Additionally, NumPy provides mathematical functions that are instrumental in implementing algorithms for facial feature extraction and analysis. Furthermore, NumPy's array broadcasting feature is particularly beneficial in the context of Student face recognition. It enables the efficient application of operations on arrays of different shapes and sizes without the need for explicit looping, which significantly enhance the performance of our student face recognition algorithm. The ability to perform element-wise operations on entire arrays simplifies the implementation of complex mathematical computations involved in facial feature matching and comparison. Overall, NumPy's versatility and efficiency made it a cornerstone in the development of our robust and high-performance student class attendance systems. 
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-CHAPTER FOUR RESULTS AND DISCUSSIONS 
-4.1 Results 
+# RESULTS AND DISCUSSIONS 
+## 4.1 Results 
+
 The system can be accessed by running the python file that will open the webcam of the device. In order to perform student face recognition, the user must place his/her face in front of the webcam and allow the system to recognize and classify the student face for taking attendance in real-time. 
-  
-  
-  
-Figure 4: Interface when making a prediction for student attendance system 
+
+__Figure 4: Interface when making a prediction for student attendance system__
+
 4.2 Usability of Web Based Student Class Attendance System Using Artificial Intelligence    
 People who have used the system so far have found the system to be responsive and giving an accurate prediction most of the times. The system is easy to use and does not require the user to fill in any extra unnecessary information which increases the ease of use. The user is only required to place the face in front of the camera at a relative distance to obtain a prediction. 
 4.2.1 System Validation 
