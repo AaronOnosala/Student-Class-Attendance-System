@@ -2,7 +2,7 @@
 
 __Note__: Project Report Submitted in Partial Fulfillment of the Requirements for the Degree of Bachelor of Science in Artificial Intelligence and Machine Learning of the [International Business, Science and Technology University.](https://isbatuniversity.ac.ug/) November, 2023, Kampala, Uganda
 
-                    ![ISBAT](https://github.com/user-attachments/assets/695b122a-2162-4639-8c2d-0f17ce8d6af9)
+    ![ISBAT](https://github.com/user-attachments/assets/695b122a-2162-4639-8c2d-0f17ce8d6af9)
 
 
 # INTRODUCTION 
