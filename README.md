@@ -5,6 +5,7 @@ __Note__: Project Report Submitted in Partial Fulfillment of the Requirements fo
 ![ISBAT](https://github.com/user-attachments/assets/695b122a-2162-4639-8c2d-0f17ce8d6af9)
 
 ## Framework Used In This Project
+<img width="741" alt="Screenshot 2024-08-12 at 11 46 01" src="https://github.com/user-attachments/assets/47820292-eb6f-44ce-b30d-65314b952538">
 
 # INTRODUCTION 
  
