@@ -1,5 +1,7 @@
 # Student-Class-Attendance-System
 
+__Note__: Project Report Submitted in Partial Fulfillment of the Requirements for the Degree of Bachelor of Science in Artificial Intelligence and Machine Learning of the [International Business, Science and Technology University.](https://isbatuniversity.ac.ug/) November, 2023, Kampala, Uganda
+
 # INTRODUCTION 
  
 These days, technology seeks to convey a large amount of knowledge-based technical advancements. Deep Learning is an intriguing subject that allows a machine to educate itself using datasets as input and then deliver an acceptable output during testing using various learning techniques. Nowadays, attendance is seen as a critical aspect for both students and teachers in educational institutions. With the progress of deep learning technology, the computer can now automatically recognise the students' attendance performance and keep a record of it. In general, a student's attendance system can be kept in two different ways, namely,   
@@ -214,6 +216,3 @@ Soni, N. (2023). Real-Time recognition system for sign language gestures . Kampa
 Abdalkarim, B. A. (2022). Smart Attendance Systems. Konya: Salahaddin University-Erbil. 
 Kano, B. U. (2021). Attendance Management System. kano: Bayero University Kano. 
 British Journal of Computer, N. a. (2022). Students' Attendance Management in higher institution using azure cognitive service and opencv face detection & recognition Attendance System. london: British Journal. 
-
-__Note__: Project Report Submitted in Partial Fulfillment of the Requirements for the Degree of Bachelor of Science in Artificial Intelligence and Machine Learning of the [International Business, Science and Technology University.](https://isbatuniversity.ac.ug/) November, 2023, Kampala, Uganda
-
